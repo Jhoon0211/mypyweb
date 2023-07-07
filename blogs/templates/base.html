@@ -10,10 +10,17 @@
     <script src="{% static 'blog/js/bootstrap.js' %}"></script>
     <script src="https://kit.fontawesome.com/187dabceeb.js"
             crossorigin="anonymous"></script> <!-- fontawesome 키트-->
+    <script  src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
 <body>
 {% include 'navbar.html' %}
+<!-- 본문 영역 -->
 {% block content %}
+{% endblock %}
+
+
+<!-- 자바 스크립트 영역 -->
+{% block script %}
 {% endblock %}
 </body>
 </html>
