@@ -2,6 +2,12 @@
 
 a{text-decoration: none;}
 
+.comment{
+    border-top: 1px dotted #ccc;
+    padding: 10px 5px;
+    font-size: 0.9em;
+}
+
 /* post_list 스타일 */
 #post_list{width: 700px; float: left;}
 
